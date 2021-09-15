@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+#contenedor {
+    background-image: url('/Imagenes/Cerveza/Cervezas.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    height: 450px;
+}
+
+#contenedor2 {
+    background-image: url('/Imagenes/Diabetes/Diabetes.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    height: 450px;
+}
+
+h1 {
+    padding-top: 10%;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(247, 88, 77);
+    background-attachment: fixed;
+}
+
+h1:hover {
+    color: #fff042
+}
+
+nav a {
+
+    color: rgb(225, 110, 65);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+nav{
+    text-align: right;
+margin-top: 13%;
+}
+nav :hover {
+    color: rgba(91, 91, 244, 0.783);
+
+}
+
+/* MAIN */
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600 ;
+    font-style: italic;
+    font-size: 400;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+table img {
+    padding: 5px;
+    width: 25%;
+    height: 50%;
+}
+
+table {
+    margin: 15px;
+    padding: 15px;
+    font-style: italic;
+    border: black 5px solid;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: double;
+
+}
+
+td {
+    border: black 2px solid;
+}
+
+th {
+    background-color: chartreuse;
+    border: black 2px solid;
+}
